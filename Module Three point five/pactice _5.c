@@ -3,10 +3,11 @@ int main ()
 {  int n,i;
     scanf("%d",&n);
     for(i=1;i<=n;i++){
+        printf("%i ",i);
        if(i%5==0){
-        printf("%d yes",i);
+        printf("yes");
        }else{
-        printf("%d No",i);
+        printf("No");
        }
     }
     return 0;
