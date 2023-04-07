@@ -2,14 +2,15 @@
 int main ()
 {  long long int n,k;
     scanf("%lld",&n);
-    k=n-1000;
     if(1000<n){
-        printf("you will buy panjabi\n");
-    }if(k>500){
-        printf("you wiil bye shous\n");
-        printf("Alis will by show\n");
+        printf("I will buy Punjabi\n");
+        
+        if(n-1000 > 500){
+        printf("I will buy new shoes\n");
+        printf("Alisa will buy new shoes\n");
+         }
     }else{
-        printf("he cnat by some ting");
+        printf("Bad luck!\n");
     }
   
     
