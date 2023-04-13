@@ -13,7 +13,7 @@ for(int i=0;i<n;i++){
         printf("%d",i);
         break;
     }else{
-        if(arr[n-1]==arr[i]&& arr[i]!=s){
+        if(arr[n-1]==arr[i]){ 
             printf("-1");
         }
     }
