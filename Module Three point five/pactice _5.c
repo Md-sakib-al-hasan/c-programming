@@ -5,7 +5,7 @@ int main ()
     for(i=1;i<=n;i++){
         printf("%d ",i);
        if(i%5==0){
-        printf("yes\n");
+        printf("Yes\n");
        }else{
         printf("No\n");
        }
