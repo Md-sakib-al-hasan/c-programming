@@ -1,31 +1,14 @@
 #include <stdio.h>
 int main ()
 {
-    int n=4;
-    //scanf("%d",&n);
-    int s=n-1;
-    int k=1;
-    for(int i=1;i<=n*2;i++){
-         for(int j=1;j<=s;j++){
-            printf(" ");
-        }
-        for(int j=1;j<=k;j++){
-            printf("*");
-        }
-        if(i<n){
-         s--;
-         k+=2;
-        }else if(i==n){
-            printf("\n");
-            continue;
-        }
-        else{
-            s++;
-            k-=2;
-        }
-        printf("\n");
-
-
-    }
+    int a,b;
+    scanf("%d %d",&a,&b);
+    long long int s = 60642*92657;
+    printf("%lld",s);
+    // printf("%d + %d = %d\n",a,b,a+b);
+    // printf("%d * %d = %lld\n",a,b,s);
+    // printf("%d - %d = %d\n",a,b,a-b);
     return 0;
 }
+
+//'60642 * 92657 = 5618905794', found: '60642 * 92657 = 1323938498'
